@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Side B Atelier — кастомные аудиокассеты по вашему плейлисту</title>
+    <meta
+      name="description"
+      content="Превращаем любимый плейлист в физический подарок: кастомная аудиокассета, оформление коробки, личное послание и атмосфера, собранная под ваши треки."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;700;800&family=Unbounded:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="Side B Atelier">
+          <span class="brand-mark">SB</span>
+          <span class="brand-copy">
+            <strong>Side B Atelier</strong>
+            <span>плейлисты, которые можно держать в руках</span>
+          </span>
+        </a>
+
+        <nav class="main-nav" aria-label="Основная навигация">
+          <a href="#playlist-lab">Плейлист-лаборатория</a>
+          <a href="#formats">Форматы</a>
+          <a href="#moments">Для каких поводов</a>
+          <a href="#order">Заказать</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero section">
+          <div class="hero-copy" data-reveal>
+            <p class="eyebrow">подарок, у которого есть звук, вес и память</p>
+            <h1>
+              Собирайте плейлист.
+              <span>Я превращу его в кассету с характером.</span>
+            </h1>
+            <p class="hero-text">
+              Вы присылаете любимые треки и настроение. Я записываю плейлист на
+              кассету, продумываю оформление бокса, вкладыш и детали упаковки
+              так, чтобы подарок ощущался личным, а не “просто заказом”.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#playlist-lab"
+                >Проверить плейлист</a
+              >
+              <a class="button button-secondary" href="#order"
+                >Собрать заказ</a
+              >
+            </div>
+
+            <ul class="hero-facts">
+              <li>Кастом под вайб треков, а не по шаблону</li>
+              <li>Подарочный сценарий: записка, дата, доставка получателю</li>
+              <li>Быстрый бриф без лишней переписки</li>
+            </ul>
+          </div>
+
+          <div class="hero-stage" data-reveal>
+            <div class="stage-orbit stage-orbit-one"></div>
+            <div class="stage-orbit stage-orbit-two"></div>
+
+            <article class="cassette-card">
+              <div class="cassette-topline">
+                <span class="cassette-chip">A / B</span>
+                <span class="cassette-chip">custom dub</span>
+              </div>
+
+              <div class="cassette-shell">
+                <div class="reel reel-left"></div>
+                <div class="reel reel-right"></div>
+                <div class="cassette-window"></div>
+                <div class="cassette-strip">night drive / 63:42</div>
+              </div>
+
+              <div class="cassette-label">
+                <p>для человека, который звучит как поздний август</p>
+                <strong>Midnight Kitchen Tape</strong>
+              </div>
+            </article>
+
+            <article class="gift-note">
+              <p class="eyebrow">что человек получает</p>
+              <ul>
+                <li>кассету с плейлистом</li>
+                <li>кастомный бокс + j-card</li>
+                <li>личное посвящение</li>
+                <li>QR-ссылку на цифровую версию</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="marquee" aria-label="Преимущества сервиса">
+          <div class="marquee-track">
+            <span>юбилеи</span>
+            <span>первые свидания</span>
+            <span>дальние отношения</span>
+            <span>road trip tape</span>
+            <span>день рождения</span>
+            <span>память о лете</span>
+            <span>корпоративные подарки</span>
+            <span>юбилеи</span>
+            <span>первые свидания</span>
+            <span>дальние отношения</span>
+          </div>
+        </section>
+
+        <section class="section intro-grid">
+          <article class="intro-card" data-reveal>
+            <p class="eyebrow">почему это цепляет</p>
+            <h2>Не мерч. Не сувенир. Настоящий артефакт отношений.</h2>
+            <p>
+              Обычный плейлист живет в телефоне. Кассета живет на полке, в
+              руках, в памяти о моменте. Именно это и делает подарок редким.
+            </p>
+          </article>
+
+          <article class="intro-card accent" data-reveal>
+            <p class="eyebrow">что продает сайт</p>
+            <h2>Не носитель, а историю, которую хочется подарить красиво.</h2>
+            <p>
+              Поэтому на сайте есть и вдохновение, и быстрый расчет, и бриф,
+              который помогает оформить заказ без хаоса в сообщениях.
+            </p>
+          </article>
+        </section>
+
+        <section class="section playlist-lab" id="playlist-lab">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">полезный инструмент прямо на сайте</p>
+            <h2>Плейлист-лаборатория</h2>
+            <p>
+              Вставьте треки списком. Сайт прикинет длительность, формат кассеты
+              и предложит визуальное направление для оформления.
+            </p>
+          </div>
+
+          <div class="lab-layout">
+            <article class="lab-input card" data-reveal>
+              <div class="lab-toolbar">
+                <h3>Ваш плейлист</h3>
+                <div class="preset-buttons" role="group" aria-label="Примеры">
+                  <button class="chip-button" type="button" data-preset="night">
+                    Night Drive
+                  </button>
+                  <button class="chip-button" type="button" data-preset="soft">
+                    Soft Love
+                  </button>
+                  <button class="chip-button" type="button" data-preset="party">
+                    Kitchen Disco
+                  </button>
+                </div>
+              </div>
+
+              <label class="field-label" for="playlist-input">
+                По одной строке. Можно так:
+                <span class="field-hint"
+                  >Artist — Track — 03:45 или просто Track 03:45</span
+                >
+              </label>
+              <textarea
+                id="playlist-input"
+                rows="12"
+                placeholder="The xx — Intro — 02:07&#10;M83 — Midnight City — 04:04&#10;Chromatics — Cherry — 04:17"
+              ></textarea>
+
+              <div class="lab-actions">
+                <button class="button button-primary" id="analyze-button" type="button">
+                  Проанализировать
+                </button>
+                <button class="button button-secondary" id="clear-button" type="button">
+                  Очистить
+                </button>
+              </div>
+
+              <p class="microcopy">
+                Если длительности не указаны, сайт посчитает приблизительно и
+                предупредит об этом.
+              </p>
+            </article>
+
+            <article class="lab-output card" data-reveal>
+              <div class="lab-output-head">
+                <h3>Что получится</h3>
+                <span class="status-pill" id="fit-pill">жду ваш плейлист</span>
+              </div>
+
+              <div class="metrics-grid">
+                <div class="metric">
+                  <span class="metric-label">Треков</span>
+                  <strong id="track-count">0</strong>
+                </div>
+                <div class="metric">
+                  <span class="metric-label">Длительность</span>
+                  <strong id="total-duration">00:00</strong>
+                </div>
+                <div class="metric">
+                  <span class="metric-label">Формат</span>
+                  <strong id="format-recommendation">—</strong>
+                </div>
+                <div class="metric">
+                  <span class="metric-label">Стороны</span>
+                  <strong id="side-split">—</strong>
+                </div>
+              </div>
+
+              <div class="mood-card">
+                <p class="eyebrow">визуальное направление</p>
+                <h4 id="mood-name">Вставьте плейлист, и я поймаю его настроение</h4>
+                <p id="mood-description">
+                  Сайт предложит настроение, палитру и характер упаковки, чтобы
+                  бриф был осмысленным уже на первом сообщении.
+                </p>
+                <div class="swatches" id="swatches" aria-hidden="true">
+                  <span style="--swatch:#d0c4b0"></span>
+                  <span style="--swatch:#8c6a43"></span>
+                  <span style="--swatch:#2d2b2a"></span>
+                </div>
+              </div>
+
+              <div class="brief-output">
+                <p class="eyebrow">подсказка для коробки</p>
+                <p id="brief-copy">
+                  После анализа здесь появится короткая концепция оформления,
+                  которую можно сразу отправить в заказ.
+                </p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section process">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">как это работает</p>
+            <h2>Путь от плейлиста до готового подарка</h2>
+          </div>
+
+          <div class="process-grid">
+            <article class="process-step" data-reveal>
+              <span>01</span>
+              <h3>Вы присылаете треки</h3>
+              <p>
+                Ссылкой на Spotify/Apple Music/YouTube Music или обычным списком
+                песен с длительностью.
+              </p>
+            </article>
+
+            <article class="process-step" data-reveal>
+              <span>02</span>
+              <h3>Я ловлю атмосферу</h3>
+              <p>
+                Настроение, сюжет, повод, важные фразы, визуальный стиль
+                упаковки и общую эмоциональную температуру заказа.
+              </p>
+            </article>
+
+            <article class="process-step" data-reveal>
+              <span>03</span>
+              <h3>Собираю физический объект</h3>
+              <p>
+                Запись на кассету, вкладыш, коробка, подписанные детали,
+                подарочная подача и QR на цифровую версию.
+              </p>
+            </article>
+
+            <article class="process-step" data-reveal>
+              <span>04</span>
+              <h3>Вы дарите вау-эффект</h3>
+              <p>
+                Получается вещь, которую хочется не просто послушать, а
+                пересматривать и хранить.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section formats" id="formats">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">предложение без перегруза</p>
+            <h2>Три формата, которые легко понять и выбрать</h2>
+          </div>
+
+          <div class="formats-grid">
+            <article class="format-card" data-reveal>
+              <p class="format-kicker">entry</p>
+              <h3>Signal</h3>
+              <p class="price">от 3 900 ₽</p>
+              <ul>
+                <li>кассета + аккуратный вкладыш</li>
+                <li>оформление по одному mood-направлению</li>
+                <li>QR на цифровой плейлист</li>
+              </ul>
+            </article>
+
+            <article class="format-card featured" data-reveal>
+              <p class="format-kicker">best choice</p>
+              <h3>Side A / Side B</h3>
+              <p class="price">от 5 900 ₽</p>
+              <ul>
+                <li>кастомный бокс и j-card под вайб треков</li>
+                <li>личное посвящение внутри</li>
+                <li>подарочная упаковка и сценарий вручения</li>
+              </ul>
+            </article>
+
+            <article class="format-card" data-reveal>
+              <p class="format-kicker">premium</p>
+              <h3>Archive Piece</h3>
+              <p class="price">от 8 500 ₽</p>
+              <ul>
+                <li>сложное арт-направление и детальная упаковка</li>
+                <li>доп. карточка с историей плейлиста</li>
+                <li>вариант для юбилея, пары или маленького тиража</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section gallery">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">что хочется листать</p>
+            <h2>Идеи, которые можно показывать новым клиентам</h2>
+          </div>
+
+          <div class="gallery-grid">
+            <article class="gallery-card tone-amber" data-reveal>
+              <p class="eyebrow">warm nostalgia</p>
+              <h3>“Август, кухня, 2017”</h3>
+              <p>
+                Теплые оттенки бумаги, рукописный треклист, ощущение находки из
+                старого ящика.
+              </p>
+            </article>
+
+            <article class="gallery-card tone-forest" data-reveal>
+              <p class="eyebrow">cinematic calm</p>
+              <h3>“Снег за окном / slow ambient”</h3>
+              <p>
+                Глубокий зеленый, кремовые вставки, минималистичная коробка и
+                почти музейная тишина в оформлении.
+              </p>
+            </article>
+
+            <article class="gallery-card tone-night" data-reveal>
+              <p class="eyebrow">night drive</p>
+              <h3>“Скорость, город, после полуночи”</h3>
+              <p>
+                Темный акрил, металлизированные детали, типографика с ощущением
+                неона и дороги.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section moments" id="moments">
+          <div class="moments-copy" data-reveal>
+            <p class="eyebrow">где особенно хорошо заходит</p>
+            <h2>Сценарии, ради которых люди реально готовы купить такую вещь</h2>
+            <p>
+              Самый сильный трафик и лучшие конверсии обычно приходят не из
+              “кассета на заказ”, а из поводов и эмоций: годовщина, день
+              рождения, отношения на расстоянии, first dance, плейлист “про нас”.
+            </p>
+          </div>
+
+          <div class="moments-grid">
+            <article class="moment-card" data-reveal>
+              <h3>Для пары</h3>
+              <p>История отношений в треках, первое свидание, сезон “про нас”.</p>
+            </article>
+            <article class="moment-card" data-reveal>
+              <h3>На день рождения</h3>
+              <p>Необычный подарок с ощущением, что его делали только для одного человека.</p>
+            </article>
+            <article class="moment-card" data-reveal>
+              <h3>На расстоянии</h3>
+              <p>Когда хочется подарить не предмет, а присутствие и голос.</p>
+            </article>
+            <article class="moment-card" data-reveal>
+              <h3>Для брендов и команд</h3>
+              <p>Небольшие тиражи для ивентов, артистов, комьюнити и клиентов.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section social-proof">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">доверие и истории</p>
+            <h2>Что должно убеждать новых клиентов на сайте</h2>
+          </div>
+
+          <div class="proof-grid">
+            <article class="proof-card" data-reveal>
+              <h3>Распаковки и фото клиентов</h3>
+              <p>
+                Реальные кассеты, настоящие руки, живые эмоции. Для такого
+                продукта UGC работает сильнее любых рекламных обещаний.
+              </p>
+            </article>
+            <article class="proof-card" data-reveal>
+              <h3>Отзывы в формате мини-историй</h3>
+              <p>
+                Не “все понравилось”, а “подарил девушке на годовщину — она
+                расплакалась на втором треке”.
+              </p>
+            </article>
+            <article class="proof-card" data-reveal>
+              <h3>Видео процесса</h3>
+              <p>
+                Запись кассеты, сборка коробки, печать вкладыша. Показывает
+                ручную работу и снимает ощущение неизвестности.
+              </p>
+            </article>
+          </div>
+
+          <div class="testimonial-strip" data-reveal>
+            <article class="testimonial">
+              <p>
+                “Это выглядело не как заказ, а как найденный артефакт из нашей
+                общей жизни.”
+              </p>
+              <span>Марина, подарок на годовщину</span>
+            </article>
+            <article class="testimonial">
+              <p>
+                “Сайт сам подсказал, что мой плейлист больше подходит под тёплое
+                винтажное оформление. Это сильно упростило выбор.”
+              </p>
+              <span>Илья, подарок подруге</span>
+            </article>
+          </div>
+        </section>
+
+        <section class="section order" id="order">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">готовый бриф вместо долгих сообщений</p>
+            <h2>Оформить заказ</h2>
+            <p>
+              Заполните только главное. Сайт сам подтянет результат из
+              плейлист-лаборатории и соберет аккуратный запрос.
+            </p>
+          </div>
+
+          <div class="order-layout">
+            <form class="order-form card" id="order-form" data-reveal>
+              <div class="field-grid">
+                <label>
+                  <span>Ваше имя</span>
+                  <input type="text" id="customer-name" placeholder="Аня" />
+                </label>
+                <label>
+                  <span>Контакт</span>
+                  <input
+                    type="text"
+                    id="customer-contact"
+                    placeholder="@telegram / email / phone"
+                  />
+                </label>
+              </div>
+
+              <div class="field-grid">
+                <label>
+                  <span>Для кого подарок</span>
+                  <input
+                    type="text"
+                    id="recipient-name"
+                    placeholder="Для Димы"
+                  />
+                </label>
+                <label>
+                  <span>Повод</span>
+                  <select id="occasion">
+                    <option value="Годовщина">Годовщина</option>
+                    <option value="День рождения">День рождения</option>
+                    <option value="Без повода">Без повода</option>
+                    <option value="Подарок на расстоянии">Подарок на расстоянии</option>
+                    <option value="Корпоративный заказ">Корпоративный заказ</option>
+                  </select>
+                </label>
+              </div>
+
+              <div class="field-grid">
+                <label>
+                  <span>Желаемый формат</span>
+                  <select id="package-select">
+                    <option value="Signal">Signal</option>
+                    <option value="Side A / Side B" selected>Side A / Side B</option>
+                    <option value="Archive Piece">Archive Piece</option>
+                  </select>
+                </label>
+                <label>
+                  <span>Нужно к дате</span>
+                  <input type="date" id="deadline" />
+                </label>
+              </div>
+
+              <label>
+                <span>Коротко про настроение / историю</span>
+                <textarea
+                  id="story"
+                  rows="5"
+                  placeholder="Например: это плейлист нашего первого лета, хочется ощущение позднего августа, старых фото и мягкой грусти."
+                ></textarea>
+              </label>
+
+              <label class="checkbox">
+                <input type="checkbox" id="gift-mode" checked />
+                <span>Это подарок: нужна записка, упаковка и сценарий вручения</span>
+              </label>
+
+              <div class="lab-sync">
+                <p class="eyebrow">данные из лаборатории</p>
+                <p id="synced-summary">
+                  Пока ничего не синхронизировано. Сначала проанализируйте
+                  плейлист выше.
+                </p>
+              </div>
+
+              <div class="form-actions">
+                <button class="button button-primary" type="submit">
+                  Собрать текст заявки
+                </button>
+                <button class="button button-secondary" type="button" id="copy-brief">
+                  Скопировать бриф
+                </button>
+              </div>
+            </form>
+
+            <article class="order-preview card" data-reveal>
+              <div class="preview-head">
+                <h3>Черновик заявки</h3>
+                <span class="status-pill" id="copy-status">можно редактировать</span>
+              </div>
+              <pre id="brief-preview">Здесь появится аккуратно собранный текст заявки.</pre>
+            </article>
+          </div>
+        </section>
+
+        <section class="section faq">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">важные вопросы до покупки</p>
+            <h2>FAQ</h2>
+          </div>
+
+          <div class="faq-list">
+            <details data-reveal open>
+              <summary>Можно ли прислать просто ссылку на плейлист?</summary>
+              <p>
+                Да. Но для автоматического расчета длительности на сайте удобнее,
+                если в списке есть треки с таймингом. В реальной работе можно
+                начать и просто со ссылки.
+              </p>
+            </details>
+
+            <details data-reveal>
+              <summary>Какой формат плейлиста лучше для кассеты?</summary>
+              <p>
+                Обычно до 30 минут на сторону хорошо ложится на C60, до 45 минут
+                на сторону — на C90. Сайт сам подсказывает, если подборка
+                выходит за рамки комфортной длительности.
+              </p>
+            </details>
+
+            <details data-reveal>
+              <summary>Можно ли отправить подарок сразу получателю?</summary>
+              <p>
+                Да. Для gift-заказов стоит прямо на сайте показывать этот режим
+                как отдельный сценарий: адрес получателя, дата, записка и
+                упаковка без цены внутри.
+              </p>
+            </details>
+
+            <details data-reveal>
+              <summary>Что с правами на коммерческие записи?</summary>
+              <p>
+                Сайт честно предупреждает: для популярных коммерческих треков
+                физическая запись обсуждается отдельно в зависимости от прав и
+                формата заказа. Самый безопасный вариант — кастомный физический
+                объект + QR на цифровой плейлист.
+              </p>
+            </details>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div>
+          <strong>Side B Atelier</strong>
+          <p>Кассеты, которые звучат как личная история.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#playlist-lab">Плейлист-лаборатория</a>
+          <a href="#order">Оформить заказ</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
